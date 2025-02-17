@@ -21,7 +21,10 @@
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "extractLicenses": false
+            "extractLicenses": false,
+            "polyfills": [
+              "zone.js"
+            ]
           },
           "configurations": {
             "production": {

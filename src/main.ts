@@ -1,7 +1,7 @@
 import { createApplication } from '@angular/platform-browser';
 import { createCustomElement } from '@angular/elements';
 import { LikeButtonComponent } from './like-button/like-button.component';
-import 'zone.js';
+// import 'zone.js';
 
 createApplication()
     .then((app) => {
